@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head><title>Login Akun</title></head>
+<head>
+  <title>Login Akun</title>
+</head>
 <body>
   <h2>Login</h2>
   <form id="loginForm">
@@ -9,6 +11,10 @@
     <button type="submit">Login</button>
   </form>
   <p id="message"></p>
+
+  <div style="margin-top: 15px;">
+    <button onclick="window.location.href='register.html'">Belum punya akun? Daftar di sini</button>
+  </div>
 
   <script>
     document.getElementById("loginForm").addEventListener("submit", async (e) => {
