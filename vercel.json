@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/register",
+      "destination": "http://192.168.100.49/register.php"
+    },
+    {
+      "source": "/api/login",
+      "destination": "http://192.168.100.49/login.php"
+    }
+  ]
+}
